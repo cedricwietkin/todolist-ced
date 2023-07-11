@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Container from "./components/Container";
 import TaskItem from "./components/TaskItem";
 import AddTask from "./components/AddTask";
+import Social from "./components/Social";
 
 
   
@@ -25,6 +26,7 @@ function App() {
   };
 
   return (
+    <>
     <div className="App flex bg-gradient-to-r from-blue-500 to-teal-200 justify-center items-center h-screen w-screen">
       <Container>
         <div className="flex flex-col flex-1 p-5 items-top gap-5">
@@ -55,6 +57,8 @@ function App() {
         </div>
       </Container>
     </div>
+    <Social></Social>
+  </>
   );
 }
 
