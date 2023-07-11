@@ -1,0 +1,24 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bg-blue-200 {
+  height: auto;
+  width: 70vw;
+}
+
+footer {
+  background-color: #99f6e4;
+}
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul li .facebook_icon, footer ul li .instagram_icon, footer ul li .github_icon, footer ul li .linkedin_icon {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

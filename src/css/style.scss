@@ -1,0 +1,30 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.bg-blue-200{
+    height: auto;
+    width: 70vw;
+}
+
+footer{
+    background-color: #99f6e4;
+
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        li{
+
+
+        .facebook_icon, .instagram_icon, .github_icon, .linkedin_icon{
+            color: white;
+        }
+
+        }
+    }
+}
