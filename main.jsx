@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
-import Social from "./components/Social";
-import './style.css';
+import App from "./src/App.jsx";
+import "./src/css/index.css";
+import Social from "./src/components/Social.jsx";
+import './src/css/style.css';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
